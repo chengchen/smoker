@@ -1,4 +1,4 @@
-package com.edgelab.cji;
+package com.edgelab;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

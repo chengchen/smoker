@@ -1,4 +1,4 @@
-package com.edgelab.cji;
+package com.edgelab;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

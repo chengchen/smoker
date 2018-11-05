@@ -1,6 +1,6 @@
 # Potato
 
-Buggy potato app
+Buggy potato app for interview purpose
 
 ## Requirements
 
@@ -17,8 +17,10 @@ $ mvn clean install
 $ docker-compose up
 ```
 
-Try to make this call work or find the issue:
+If you do this call, you should expect an OOM error:
 
 ```
 $ curl http://localhost:8080
 ```
+
+Please try to find the cause of the issue, and propose a feasible solution.
