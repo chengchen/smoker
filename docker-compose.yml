@@ -1,0 +1,7 @@
+potato:
+  container_name: app
+  build: .
+  ports:
+  - 8080:8080
+  mem_limit: 500M
+  mem_swappiness: 0
