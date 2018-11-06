@@ -17,10 +17,11 @@ $ mvn clean install
 $ docker-compose up
 ```
 
-If you do this call, you should expect an OOM error:
+If you execute this script which launches some calls to the exposed API, you should expect an OOM error:
 
 ```
-$ curl http://localhost:8080
+$ ./test.sh
 ```
 
-Please try to find the cause of the issue, and propose a feasible solution.
+* Please try to find the root cause of the issue and explain what is happening under the hood.
+* Propose and implement a realistic solution to fix this OOM error without changing the business requirements.
