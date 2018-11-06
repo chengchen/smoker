@@ -16,7 +16,7 @@ generate_user_ids() {
     echo ${IDS}
 }
 
-# do 1000 times
+# do 500 times to simulate some calls
 for i in `seq 1 500`;
 do
     USER_IDS=$(generate_user_ids)
